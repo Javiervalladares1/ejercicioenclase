@@ -4,6 +4,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+//comentario Cami1
+
 public class lectorArchivos {
     private String inputFile;
     private String outputFile;
