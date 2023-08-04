@@ -52,3 +52,18 @@ public class lectorArchivos {
         csvFileManager.CSVnuevo();
     }
 }
+public class DetectorPalindromo {
+    private String palabra;
+    private boolean esPalindromo;
+    public Palabra(String palabra) {
+        this.palabra = palabra;
+        this.esPalindromo = esPalindromo();
+    }
+    public String getPalabra() {
+        return palabra;
+    }
+    public boolean esPalindromo() {
+        String palabraInvertida = new StringBuilder(palabra).reverse().toString();
+        return palabra.equals(palabraInvertida);
+    }
+}
