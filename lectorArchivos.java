@@ -69,3 +69,15 @@ public class DetectorPalindromo {
         return palabra.equals(palabraInvertida);
     }
 }
+Public class UI{
+	public  String csvName;
+
+	public getFile(){
+		String csvName = 
+		LectorCSV lectorCSV = new LectorCSV(csvName);
+	}
+	public successMessage(){
+		System.out.println("El archivo csv fue creado con éxito")
+	}
+
+}
