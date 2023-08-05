@@ -6,7 +6,7 @@ import java.util.List;
 
 
 
-
+//Esto fue agregado para establecer las variables inputfile y outputfile
 public class Main {
     public static void main(String[] args) {
         String inputFile = "Book1.csv";
@@ -22,7 +22,7 @@ public class Main {
                 }
             }
 
-            EscribirCSV.writeCsvFile(outputFile, palindromes);
+            EscribirCSV.returnNewCSVfile(outputFile, palindromes);
 
             System.out.println("Palindromes have been written to " + outputFile);
         } catch (IOException e) {
